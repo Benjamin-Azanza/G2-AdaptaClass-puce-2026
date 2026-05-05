@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# AdaptaClass
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Descripción
+**AdaptaClass** es un videojuego educativo interactivo diseñado para evaluar y fortalecer habilidades de **Lenguaje y Literatura**. A través de dinámicas de plataformas, el jugador debe esquivar obstáculos, recolectar puntos y responder preguntas sobre comprensión lectora, inferencia, uso del lenguaje, gramática y análisis de textos. 
 
-## Get started
+Es una herramienta MVP estructurada bajo una arquitectura limpia (separación de UI, Core de Autenticación y Motor del Juego) orientada a la mantenibilidad y futura escalabilidad.
 
-1. Install dependencies
+## Integrantes y Roles
+* **[Tu Nombre / Compañero 1]** - [Rol: Ejemplo: Desarrollador / Product Owner]
+* **[Compañero 2]** - [Rol]
+* **[Compañero 3]** - [Rol]
+*(Espacio reservado para rellenar)*
 
+## Stack Técnico 
+* **Frontend:** React Native, Expo Router.
+* **Motor de Videojuego:** Phaser 3 (Ejecutado a través de WebView / Iframe).
+* **Lenguaje:** TypeScript, HTML5, CSS3.
+* **Arquitectura:** Modular / Basada en capas (UI Components, Domain Core/Auth, Data).
+
+## ¿Cómo se instala y se usa? 
+
+### Requisitos previos
+- Tener [Node.js](https://nodejs.org/) instalado.
+- (Opcional) Aplicación de **Expo Go** en tu celular para probarlo nativamente.
+
+### Pasos para instalar
+1. Abre una terminal y navega hasta la carpeta del proyecto.
+2. Instala todas las dependencias ejecutando:
    ```bash
    npm install
    ```
 
-2. Start the app
+### ¿Cómo prenderlo / jugar?
+Tienes dos formas principales de iniciar el proyecto:
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+**Opción A: Jugar en el navegador web (Recomendado para pruebas rápidas)**
+Ejecuta el siguiente comando:
 ```bash
-npm run reset-project
+npm run web
 ```
+*Esto abrirá automáticamente `http://localhost:8081` en tu navegador con el juego.*
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Opción B: Jugar en el celular (App Nativa)**
+Ejecuta el siguiente comando:
+```bash
+npm start
+```
+*Aparecerá un código QR en la terminal. Escanéalo con la cámara de tu iPhone o con la app de Expo Go en Android.*
 
-## Learn more
+### Flujo de la Aplicación
+1. Al iniciar la aplicación, serás recibido por la **Pantalla de Login**.
+2. **Credenciales de prueba:**
+   - **Correo:** `admin@puce.edu.ec`
+   - **Contraseña:** `MVP_AdaptaClass`
+3. Una vez autenticado, el motor de Phaser arrancará y podrás jugar. Si chocas con una bomba, aparecerá una pregunta de Lenguaje. ¡Responde bien para continuar!
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## URL de Deploy 
+[🔗 Enlace al proyecto en producción] *(Próximamente)*
