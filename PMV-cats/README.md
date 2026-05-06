@@ -51,8 +51,9 @@ npm start
 1. Al iniciar la aplicación, serás recibido por la **Pantalla de Login**.
 2. **Credenciales de prueba:**
    - **Correo:** `admin@puce.edu.ec`
-   - **Contraseña:** `MVP_AdaptaClass`
+   - **Contraseña:** `MVP`
 3. Una vez autenticado, el motor de Phaser arrancará y podrás jugar. Si chocas con una bomba, aparecerá una pregunta de Lenguaje. ¡Responde bien para continuar!
 
 ## URL de Deploy 
 [🔗 Enlace al proyecto en producción] *(Próximamente)*
+dapta-class-puce-2026-o2u4.vercel.app)
